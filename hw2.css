@@ -10,6 +10,7 @@ this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
 　width:600px;
 　float:left;
 　height:600px;
+  position: fixed;
 　text-align:center;
 　line-height:280px;
 　font-size:15px;
@@ -25,6 +26,7 @@ this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
 　font-size:15px;
 　color:#f9c81e;
 　font-weight:bold;
+  position: fixed;
 　right:0;
 }
 
