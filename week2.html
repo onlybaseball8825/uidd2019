@@ -6,13 +6,44 @@
   </head>
 
   <body>
-    <div id="navbar"></div><!--最上方的橫列-->
-    <ul class="list-inline">
-      <li><a herf="#">一期生</a></li>
-      <li><a herf="#">二期生</a></li>
-      <li><a herf="#">三期生</a></li>
-      <li><a herf="#">四期生</a></li>
-    </ul>
+    
+    <nav class="nav navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Nogizaka46</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+          <li><a data-toggle="tab" href="#page1">一期生</a></li>
+          <li><a data-toggle="tab" href="#page2">二期生</a></li>
+          <li><a data-toggle="tab" href="#page3">三期生</a></li>
+          <li><a data-toggle="tab" href="#page4">四期生</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="tab-content">
+      <div id="page1" class="tab-pane fade in active">
+        <h1>1st</h1>
+        <p>內容1</p>
+      </div>
+
+      <div id="page2" class="tab-pane fade">
+        <h1>2nd</h1>
+        <p>內容2</p>
+      </div>
+
+      <div id="page3" class="tab-pane fade">
+        <h1>3rd</h1>
+        <p>內容3</p>
+      </div>
+
+      <div id="page4" class="tab-pane fade">
+        <h1>4th</h1>
+        <p>內容4</p>
+      </div>
+    </div>
 
 
 
