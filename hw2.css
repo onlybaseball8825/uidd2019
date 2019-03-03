@@ -25,7 +25,7 @@ this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
 　font-size:15px;
 　color:#f9c81e;
 　font-weight:bold;
-　float:right;
+　right:0;
 }
 
 </style>
