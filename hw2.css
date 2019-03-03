@@ -5,33 +5,22 @@ this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
 }
 
 <style type="text/css">
-
-#Sidebar{
-　width:600px;
-　float:left;
-　height:600px;
-  position: fixed;
-　text-align:center;
-　line-height:280px;
-　font-size:15px;
-　color:#ffffff;
-　font-weight:bold;
-　
+#DIV1{
+width:200px;
+line-height:50px;
+padding:20px;
+border:2px blue solid;
+margin-right:10px;
+float:left;
 }
-#body{
-　width:600px;
-　height:600px;
-　text-align:center;
-　line-height:280px;
-　font-size:15px;
-　color:#f9c81e;
-　font-weight:bold;
-  position: fixed;
-　right:0;
+#DIV2{
+width:200px;
+line-height:50px;
+padding:20px;
+border:2px green solid;
+float:left;
 }
-
 </style>
-
 
 
 
