@@ -26,7 +26,21 @@ nav a {
 }
 
 /* 滑鼠移到 <a> 時變成深底淺色 */
-nav a:hover {
+nav li:hover {
     background-color: rgb(115, 115, 115);
     color: white;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.inline-block-nav {
+    text-align: center;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+}
+
+.inline-block-nav > li {
+    display: inline-block;
 }
