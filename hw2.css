@@ -1,8 +1,3 @@
-img {
-max-width:600px;
-myimg:expression(onload=function(){
-this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
-}
 
 <style type="text/css">
 #DIV1{
