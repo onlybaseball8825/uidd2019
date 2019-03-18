@@ -1,1 +1,21 @@
+.picture{
+  width: 90% ;
+  heigth: 90% ;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
 
+cards {
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.card.hidden {
+  opacity: 0.1;
+}
