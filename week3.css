@@ -1,19 +1,19 @@
 .picture{
   width: 90% ;
   heigth: 90% ;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  left: 5% ;
 }
 
-cards {
+.ui.cards {
   align-items: center;
   flex-direction: column;
   height: 100%;
   justify-content: flex-end;
+}
+
+.card {
+  transition: all .2s;
+  -webkit-transform: all .2s;
 }
 
 .card.hidden {
