@@ -4,13 +4,51 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css"> 
     <link href="week3.css" rel="stylesheet" type="text/css">
-    <title>Make your meme(Nogizaka46)</title>
+    <title>Make your meme</title>
   </head>
 
 
 <body>
-<img src="https://i.imgur.com/CkPiJQS.jpg" width="100%" height="100%" border="0">
+  <div class="picture">
+    <img src="https://i.imgur.com/CkPiJQS.jpg" width="100%" height="100%" border="0">
+  </div>
+  
+  
+  <div class="card">
+        <div class="content">
+          <div class="header">Step3</div>
+          <div class="description">Change css properties dynamically.</div>
+        </div>
+  </div>
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.js"></script>
+
+   <script>
+    $(document).click(() => {
+        console.log("Event triggered!")
+    })
+
+      let display = true
+      $('.card:nth-child(1)').click(function()
+      {
+        const transition = display ? { opacity: 0.1, 'margin-top': '2em' } : { opacity: 1, 'margin-top':'2em '} 
+        $(this).animate(transition, 400) 
+        display = !display
+      })
+
+
+      $('.card:nth-child(2)').click(function(){
+        $(this).toggleClass("hidden", 400) 
+
+      })
+
+})
+
+    </script>
 
 </body>
 
